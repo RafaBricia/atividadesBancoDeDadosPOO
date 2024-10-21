@@ -1,0 +1,18 @@
+{
+  "name": "atividades-para-entregar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atividades-para-entregar": "file:",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "e": "^0.2.33"
+  }
+}

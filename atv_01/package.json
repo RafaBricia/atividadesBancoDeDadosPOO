@@ -1,0 +1,17 @@
+{
+  "name": "atv_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "listaAluno.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atv_01": "file:",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
