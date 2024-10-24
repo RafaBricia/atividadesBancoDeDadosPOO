@@ -1,0 +1,3 @@
+INFO - Login do usuário criado com sucesso
+ERROR - Falha na conexão com  base de dados
+DEBUG - Requisição de depuração do arquivo

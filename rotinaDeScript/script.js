@@ -1,12 +1,6 @@
 
-// Passo 7: Crie uma variável para armazenar as questões com a descrição de cada questão;
-// Passo 8: Criar uma função para atribuir questões aleatórias para cada estudante (math.random, splice)
-// Passo 9: Fazer a leitura de um arquivo csv e atribuir as questões;
-// Passo10: Salvar em um arquivo csv.
-
 const fs = require('fs');
 const csvWriter = require('csv-writer').createObjectCsvWriter;
-const csv = require('csv-parser');
 const csvParser = require('csv-parser');
 
 const estudantes = [
@@ -69,7 +63,7 @@ lerEstudantesDeCSV('estudantes.csv',(estudante) =>{
     const dadosSorteados = sortearQuestao(estudantes);
     
     writer.writeRecords(dadosSorteados).then(() => {
-        console.log('Arquivo CSV criado com sucesso.');
+        console.log('Arquivo CSV criado com sucesso!');
     })
 
     salvarArquivoTXT(dadosSorteados,'resultado.txt');

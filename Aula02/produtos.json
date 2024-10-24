@@ -1,0 +1,22 @@
+[
+  {
+    "id": 101,
+    "nome": "Laptop",
+    "detalhes": {
+      "marca": "Dell",
+      "preço": 1500
+    }
+  },
+  {
+    "id": 102,
+    "nome": "Smartphone",
+    "detalhes": {
+      "marca": "Samsung",
+      "preço": 700
+    }
+  },
+  {
+    "id": 103,
+    "nome": "Tablet"
+  }
+]
